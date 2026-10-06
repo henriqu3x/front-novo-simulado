@@ -1,0 +1,265 @@
+#home{
+     min-height: 100vh;
+     background-color: #f5f7f9;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     padding: 40px;
+}
+
+#home .title{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: -30px;
+}
+
+#home .title .logo {
+     display: flex;
+     align-items: center;
+     margin-left: -80px;
+}
+
+#home .title .box-text {
+     margin-left: -50px;
+}
+
+#home .title div img {
+     height: 150px;
+}
+
+#home .title button{
+     padding: 10px 15px;
+     width: 150px;
+     border: none;
+     background-color: var(--details-blue);
+     color: #fff;
+     border-radius: 8px;
+     transition: 0.2s all ease-in-out;
+     cursor: pointer;
+}
+
+#home .title button:hover{
+     opacity: 0.7;
+}
+
+#home .cards {
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     margin-top: -20px;
+}
+
+#home .cards .card {
+     background-color: var(--details-blue);
+     color: #fff;
+     height: 170px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-radius: 8px;
+     padding: 40px;
+}
+
+#home .cards .card .box-text {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+#home .cards .card .box-text p:nth-child(2) {
+     font-size: 40px;
+     font-weight: 600;
+}
+#home .cards .card .icone {
+     font-weight: 600;
+     font-size: 36px;
+}
+
+#home .tabs-content{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#home .tabs-content .tabs{
+     padding: 10px;
+     border-bottom: 2px solid var(--details-orange);
+     display: flex;
+     gap: 5px;
+}
+
+#home .tabs-content .tabs .tab{
+     padding: 10px 15px;
+     border: none;
+     background-color: var(--details-blue);
+     color: #fff;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: 0.2s all ease-in-out;
+}
+
+#home .tabs-content .tabs .tab.active{
+     background-color: var(--details-orange);
+}
+
+#home .tabs-content .tabs .tab:hover{
+     opacity: 0.7;
+}
+
+#home .box-content{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+#home .box-content .box-text button {
+     padding: 10px 15px;
+     width: 200px;
+     border: none;
+     background-color: var(--details-blue);
+     color: #fff;
+     border-radius: 8px;
+     transition: 0.2s all ease-in-out;
+     cursor: pointer;
+}
+
+#home .box-content .box-text button:hover{
+     opacity: 0.7;
+}
+
+#home .box-content .filtros{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+
+#home .box-content .filtros input{
+     padding: 10px 15px;
+     width: 450px;
+     background-color: transparent;
+     border-radius: 8px;
+     outline: none;
+     border: 2px solid #666;
+     transition: 0.2s all ease-in-out;
+}
+
+#home .box-content .filtros input:focus{
+     border: 2px solid var(--details-orange);
+}
+
+#home .box-content .filtros select{
+     padding: 10px 15px;
+     background-color: transparent;
+     border-radius: 8px;
+     outline: none;
+     border: 2px solid #666;
+     transition: 0.2s all ease-in-out;
+}
+
+#home .box-content .filtros select:focus{
+     border: 2px solid var(--details-orange);
+}
+
+#home .cards-content{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding-bottom: 30px;
+}
+
+#home .cards-content .card-content{
+     background-color: #fff;
+     padding: 10px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 2px solid var(--details-orange);
+     border-radius: 8px;
+}
+
+#home .cards-content .card-content .box-text {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+}
+
+#home .cards-content .card-content .box-text span{
+     font-size: 20px;
+     font-weight: 600;
+}
+
+#home .cards-content .card-content .box-text div{
+     display: flex;
+     gap: 5px;
+     align-items: center;
+}
+
+#home .cards-content .card-content .box-text div p.descricao{
+     width: 250px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+}
+
+#home .cards-content .card-content .box-btns{
+     display: flex;
+     gap: 5px;
+     align-items: center;
+}
+
+#home .cards-content .card-content .box-btns button:nth-child(1) {
+     padding: 10px 15px;
+     width: 150px;
+     border: 2px solid #000;
+     background-color: var(--details-blue);
+     color: #fff;
+     border-radius: 8px;
+     transition: 0.2s all ease-in-out;
+     cursor: pointer;
+}
+
+#home .cards-content .card-content .box-btns button:nth-child(1):hover {
+     opacity: 0.7;
+}
+
+#home .cards-content .card-content .box-btns button:nth-child(2) {
+     padding: 10px 15px;
+     width: 150px;
+     border: 2px solid #000;
+     background-color: var(--details-orange);
+     color: #fff;
+     border-radius: 8px;
+     transition: 0.2s all ease-in-out;
+     cursor: pointer;
+}
+
+#home .cards-content .card-content .box-btns button:nth-child(2):hover {
+     opacity: 0.7;
+}
+
+#home .cards-content .card-content .box-btns button:nth-child(3) {
+     padding: 10px 15px;
+     width: 150px;
+     border: 2px solid #000;
+     background-color: rgb(220, 2, 2);
+     color: #fff;
+     border-radius: 8px;
+     transition: 0.2s all ease-in-out;
+     cursor: pointer;
+}
+
+#home .cards-content .card-content .box-btns button:nth-child(3):hover {
+     opacity: 0.7;
+}
+
+:disabled{
+     display: none;
+}
+
+option:disabled{
+     display: block;
+     opacity: 0.7;
+}
